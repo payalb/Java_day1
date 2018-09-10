@@ -1,0 +1,25 @@
+Create a friendly interactive calculator in java Bundle, execute and test your program as a jar file.
+
+Example usage of your program:
+
+java -jar yourJar.jar  
+Hello!
+
+Enter expression:> 5  
+Output:> 5.0  
+Enter expression:> 3 + (5 + 9*7 + 9)  
+Output:> 78  
+Enter expression:>  4*(4 + 5)  
+Output:> 36  
+Enter expression:> exit  
+  
+Bye!  
+Supported operations:
+
+addition
+multiplication
+division (this is not integer division! 2/3 = 0.666666667, not 0!)
+brackets
+Negative numbers.
+Multiplication and addition take precedence and have higher priority than addition.
+Priority list: () before * before / before + before -
